@@ -8,7 +8,7 @@ To deploy this project [#menevy](https://www.github.com/xodity/menevy)
  install and run :
 
 ```bash
-go install github.com/xodity/menevy
+go install github.com/Xodity/menevy@latest
 ```
 
 ```bash
