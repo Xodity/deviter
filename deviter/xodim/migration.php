@@ -1,6 +1,7 @@
 <?php
 require 'vendor/autoload.php';
-use Laramus\Liberius\Xodim\DBCon;
+
+use Xodity\Deviter\Xodim\DBCon;
 
 class Migration extends DBCon
 {
