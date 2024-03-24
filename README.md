@@ -1,18 +1,18 @@
 
-# Liberius Framework
-Light `php` Framework collaborate with javascript runtime `NODEJS`. `CLI` based on javascript [#omirus](https://www.github.com/laramus/omirus). 
+# Deviter Framework
+Light `php` Framework powered with Golang runtime `Golang`. `CLI` based on Go language [#menevy](https://www.github.com/xodity/menevy). 
 
 ## Deployment
 
-To deploy this project [#omirus](https://www.github.com/laramus/omirus)
+To deploy this project [#menevy](https://www.github.com/xodity/menevy)
  install and run :
 
 ```bash
-npm i -g omirus
+go install github.com/xodity/menevy
 ```
 
 ```bash
-omirus create-app <name-path> laramus/liberius
+menevy install -w xodity/deviter -d myproject
 ```
 
 
@@ -24,4 +24,7 @@ omirus create-app <name-path> laramus/liberius
 - stand-alone application support
 - Fullstack Framework support
 - Light code and Fast run
-
+- go package support
+- light migration, model, and controller supports
+- rafactorable support
+- customize framework
