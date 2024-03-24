@@ -1,6 +1,6 @@
 <?php
 
-namespace Laramus\Liberius\Ancient;
+namespace Xodity\Deviter\Xodim;
 
 class Flasher {
     public static function setFlash($key, $message) {

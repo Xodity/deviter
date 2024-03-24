@@ -1,8 +1,9 @@
 <?php
 
-namespace Laramus\Liberius\Controllers;
+namespace Deviter\Application\Controllers;
 
 use Laramus\Liberius\Models\User;
+use Deviter\Application\Controllers\Controller;
 
 /**
  * 
@@ -33,16 +34,16 @@ class HomeController extends Controller
 
         // $data = User::delete(11);
 
-        $this->view('index');
+        return view('index');
     }
 
-    public function about($id)
+    public function about()
     {
         /**
          * @param mixed
          */
         // $this->view('about');
-        $this->redirect('/')->setFlash("msg_success", "Berhasil menambahkan data");
+        return redirect('/')->setFlash("msg_success", "Berhasil menambahkan data");
     }
 
     public function store($request) {

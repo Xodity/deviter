@@ -1,6 +1,6 @@
 <?php
 
-use Laramus\Liberius\Ancient\Uri;
+use Xodity\Deviter\Xodim\Uri;
 // ----------------------------------------------------------------
 /**
  * This is index specific for public instances of this Framework
@@ -8,7 +8,7 @@ use Laramus\Liberius\Ancient\Uri;
  * Copyright (MIT) 2023 - 2024, Laramus Organization and contributors
  */
 // ----------------------------------------------------------------
-if (session_status() === PHP_SESSION_NONE) session_start();
+// if (session_status() === PHP_SESSION_NONE) session_start();
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php'; 
 require_once __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'routes' . DIRECTORY_SEPARATOR . 'route.php';

@@ -1,9 +1,8 @@
 <?php
 
-namespace Laramus\Liberius\Controllers;
+namespace Deviter\Application\Controllers;
 
-use Laramus\Liberius\Ancient\Flasher;
-
+use Xodity\Deviter\Xodim\Flasher;
 /**
  * BaseController
  * 
@@ -44,4 +43,16 @@ class Controller
     {
         return password_verify($value, $hash);
     }
+
+    
+}
+
+function view($viewName, $data = []) {
+    $controller = new Controller();
+    return $controller->view($viewName, $data);
+}
+
+function redirect($route) {
+    $controller = new Controller();
+    return $controller->redirect($route);
 }
